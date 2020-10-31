@@ -23,8 +23,9 @@ async def rule(ctx,*,number):
 async def spook(ctx):
     await ctx.send("Boo!")
 
-@client.command(aliases=['k'])
+    
+@client.command(aliases=['source-code'])
 async def testing(ctx):
-    await ctx.send("This part of the code works!")
+    await ctx.send("Here is my code: ")
 
-client.run(CLIENT TOKEN GOES HERE)
+client.run("NzcxOTMyNDg0MzgwMDAwMjk2.X5zUJg.G3KxbNUVZtrReXPiui6XJ1hzSww")
