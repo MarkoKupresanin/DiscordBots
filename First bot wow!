@@ -4,11 +4,7 @@ import random
 
 client = commands.Bot(command_prefix="<")
 
-rules = [":one: Be nice to other people, being mean to bots is ok",
-":two: Maintain 6 feet social distancing inside the server",
-":three: Use all channels appropriatley, especially #play-music-and-prayers",
-":four: This rule is exlusive to Arabic Priest, PLAY THE RIGHT QURAN VERSE"
-]
+rules = [  Add you own rules here  ]
 
 
 @client.event
