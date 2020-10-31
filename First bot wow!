@@ -1,0 +1,30 @@
+import discord
+from discord.ext import commands
+import random
+
+client = commands.Bot(command_prefix="<")
+
+rules = [":one: Be nice to other people, being mean to bots is ok",
+":two: Maintain 6 feet social distancing inside the server",
+":three: Use all channels appropriatley, especially #play-music-and-prayers",
+":four: This rule is exlusive to Arabic Priest, PLAY THE RIGHT QURAN VERSE"
+]
+
+
+@client.event
+async def on_ready():
+    print("Bot is ready")
+
+@client.command()
+async def rule(ctx,*,number):
+    await ctx.send(rules[int(number)-1])
+
+@client.command()
+async def spook(ctx):
+    await ctx.send("Boo!")
+
+@client.command(aliases=['k'])
+async def testing(ctx):
+    await ctx.send("This part of the code works!")
+
+client.run(CLIENT TOKEN GOES HERE)
