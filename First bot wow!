@@ -28,4 +28,4 @@ async def spook(ctx):
 async def testing(ctx):
     await ctx.send("Here is my code: https://github.com/MarkoKupresanin/DiscordBots/blob/main/First%20bot%20wow!")
 
-client.run("NzcxOTMyNDg0MzgwMDAwMjk2.X5zUJg.G3KxbNUVZtrReXPiui6XJ1hzSww")
+client.run("CLIENT TOKEN HERE")
